@@ -1,58 +1,80 @@
 import {Link, Series, Store} from './model';
-import {Logger, Print} from '../logger';
+import {Print, logger} from '../logger';
 import {Browser} from 'puppeteer';
 import cheerio from 'cheerio';
 import {filterSeries} from './filter';
-import {usingResponse} from '../util';
+import {usingPage} from '../util';
 
 function addNewLinks(store: Store, links: Link[], series: Series) {
-	if (links.length === 0) {
-		Logger.error(Print.message('NO STORE LINKS FOUND', series, store, true));
+  if (links.length === 0) {
+    logger.debug(Print.message('NO STORE LINKS FOUND', series, store, true));
 
-		return;
-	}
+    return;
+  }
 
-	const existingUrls = new Set(store.links.map(link => link.url));
-	const newLinks = links.filter(link => !existingUrls.has(link.url));
+  const existingUrls = new Set(store.links.map(link => link.url));
+  const newLinks = links.filter(link => !existingUrls.has(link.url));
 
-	if (newLinks.length === 0) {
-		return;
-	}
+  if (newLinks.length === 0) {
+    logger.debug(Print.message('NO NEW LINKS FOUND', series, store, true));
+    return;
+  }
 
-	Logger.info(Print.message(`FOUND ${newLinks.length} STORE LINKS`, series, store, true));
-	Logger.debug(JSON.stringify(newLinks, null, 2));
+  logger.debug(
+    Print.message(`FOUND ${newLinks.length} NEW LINKS`, series, store, true)
+  );
+  logger.debug(JSON.stringify(newLinks, null, 2));
 
-	store.links = store.links.concat(newLinks);
+  store.links = store.links.concat(newLinks);
 }
 
 export async function fetchLinks(store: Store, browser: Browser) {
-	if (!store.linksBuilder) {
-		return;
-	}
+  const linksBuilder = store.linksBuilder;
+  if (!linksBuilder) {
+    return;
+  }
 
-	const promises = [];
+  const promises: Array<Promise<void>> = [];
 
-	for (const {series, url} of store.linksBuilder.urls) {
-		if (!filterSeries(series)) {
-			continue;
-		}
+  // eslint-disable-next-line prefer-const
+  for (let {series, url} of linksBuilder.urls) {
+    if (!filterSeries(series)) {
+      continue;
+    }
 
-		Logger.info(Print.message('DETECTING STORE LINKS', series, store, true));
+    logger.debug(Print.message('DETECTING STORE LINKS', series, store, true));
 
-		promises.push(usingResponse(browser, url, async response => {
-			const text = await response?.text();
+    if (!Array.isArray(url)) {
+      url = [url];
+    }
 
-			if (!text) {
-				Logger.error(Print.message('NO RESPONSE', series, store, true));
-				return;
-			}
+    url.map(x =>
+      promises.push(
+        usingPage(browser, async page => {
+          const waitUntil = linksBuilder.waitUntil
+            ? linksBuilder.waitUntil
+            : 'domcontentloaded';
+          await page.goto(x, {waitUntil});
 
-			const docElement = cheerio.load(text).root();
-			const links = store.linksBuilder!.builder(docElement, series);
+          if (linksBuilder.waitForSelector) {
+            await page.waitForSelector(linksBuilder.waitForSelector);
+          }
 
-			addNewLinks(store, links, series);
-		}));
-	}
+          const html = await page.content();
 
-	await Promise.all(promises);
+          if (!html) {
+            logger.error(Print.message('NO RESPONSE', series, store, true));
+            return;
+          }
+
+          const docElement = cheerio.load(html).root();
+          const links = linksBuilder.builder(docElement, series);
+
+          addNewLinks(store, links, series);
+        })
+      )
+    );
+  }
+
+  await Promise.all(promises);
 }
