@@ -58,7 +58,7 @@ export async function pageIncludesLabels(
         return false;
       }
 
-      logger.debug(contents);
+      //logger.debug(contents);
 
       return includesLabels(contents, query.text);
     })
@@ -133,7 +133,6 @@ export async function getPrice(
       .join('.');
     const price = Number.parseFloat(cleanPriceString);
 
-    logger.debug('received price', price);
     return price;
   }
 

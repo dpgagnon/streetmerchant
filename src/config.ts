@@ -407,6 +407,9 @@ const store = {
   country: envOrString(process.env.COUNTRY, 'usa'),
   maxPrice: {
     series: {
+      'pg exia lighting': envOrNumber(process.env.MAX_PRICE_PG_EXIA_LIGHTING),
+      'pg exia': envOrNumber(process.env.MAX_PRICE_PG_EXIA),
+      'pg exia led': envOrNumber(process.env.MAX_PRICE_PG_EXIA_LED),
       3050: envOrNumber(process.env.MAX_PRICE_SERIES_3050),
       3060: envOrNumber(process.env.MAX_PRICE_SERIES_3060),
       '3060ti': envOrNumber(process.env.MAX_PRICE_SERIES_3060TI),
@@ -478,6 +481,7 @@ const store = {
     'unvr-pro',
     'xboxss',
     'xboxsx',
+    'gundam',
   ]),
   stores: envOrArray(process.env.STORES, ['amazon', 'bestbuy']).map(entry => {
     const [name, minPageSleep, maxPageSleep] = entry.match(/[^:]+/g) ?? [];

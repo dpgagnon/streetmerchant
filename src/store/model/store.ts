@@ -35,7 +35,8 @@ export type Brand =
   | 'sony'
   | 'ubiquiti'
   | 'xfx'
-  | 'zotac';
+  | 'zotac'
+  | 'bandai';
 
 export type Series =
   | 'test:series'
@@ -68,7 +69,10 @@ export type Series =
   | 'unvr'
   | 'unvr-pro'
   | 'xboxsx'
-  | 'xboxss';
+  | 'xboxss'
+  | 'pg exia'
+  | 'pg exia lighting'
+  | 'pg exia led';
 
 export type Model =
   | 'test:model'
@@ -249,7 +253,8 @@ export type Model =
   | 'xlr8 revel epic x'
   | 'xlr8 uprising'
   | 'xtreme'
-  | 'qick';
+  | 'qick'
+  | 'gundam';
 
 export type Link = {
   brand: Brand;
@@ -310,7 +315,7 @@ export type Store = {
   };
   labels: Labels;
   name: string;
-  currency: '£' | '$' | '€' | 'R$' | 'kr.' | '';
+  currency: '£' | '$' | '€' | 'R$' | 'kr.' | '¥' | '';
   setupAction?: (browser: Browser) => void;
   /**
    * The range of status codes which considered successful, i.e. without error
