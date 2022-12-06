@@ -1,5 +1,56 @@
 # Changelog
 
+## [3.8.3](https://github.com/jef/streetmerchant/compare/v3.8.2...v3.8.3) (2022-11-28)
+
+
+### Continuous Integration
+
+* give tag an output ([36771fd](https://github.com/jef/streetmerchant/commit/36771fd55539c17b7fb589b2e5811644e62916fa))
+
+
+### Miscellaneous
+
+* **docker:** remove erroneous extra copy ([9225582](https://github.com/jef/streetmerchant/commit/922558262b664da1e8f7a69a156582345f35a291))
+* ignore docs and add web to Dockerfile ([95f112c](https://github.com/jef/streetmerchant/commit/95f112c500168b389db5da5544f2d105518835ce))
+
+## [3.8.2](https://github.com/jef/streetmerchant/compare/v3.8.1...v3.8.2) (2022-11-28)
+
+
+### Continuous Integration
+
+* quote tags ([9ce7dac](https://github.com/jef/streetmerchant/commit/9ce7dac951552d239c83e56bebadbfa22ae02110))
+
+## [3.8.1](https://github.com/jef/streetmerchant/compare/v3.8.0...v3.8.1) (2022-11-28)
+
+
+### Continuous Integration
+
+* fix tags ([e67a383](https://github.com/jef/streetmerchant/commit/e67a3838e195b0e6c3039546f6e48d30e291fd6a))
+* revert username ([2d702b3](https://github.com/jef/streetmerchant/commit/2d702b32b4ea370d27071f4ffa833c3c0ac8cc88))
+
+## [3.8.0](https://github.com/jef/streetmerchant/compare/v3.7.1...v3.8.0) (2022-11-28)
+
+
+### Features
+
+* add support for 4090 series (US - b&h/newegg/bestbuy) ([#3085](https://github.com/jef/streetmerchant/issues/3085)) ([0c84075](https://github.com/jef/streetmerchant/commit/0c840753911248d53ac272300c085940ca2c0ac9))
+* **unifi:** adds protect products ([#3082](https://github.com/jef/streetmerchant/issues/3082)) ([fa7c423](https://github.com/jef/streetmerchant/commit/fa7c4232f440f13e9fd75d06a0a2c7806350f340))
+
+
+### Documentation
+
+* change 3090 to 4090 ([dccaa52](https://github.com/jef/streetmerchant/commit/dccaa52ce99125740fcfdf3c9a71bdf261574097))
+* update badges ([82cafc4](https://github.com/jef/streetmerchant/commit/82cafc4135bb94abddfb8677703a9306010e0db3))
+
+
+### Continuous Integration
+
+* fix cache ([e1b4320](https://github.com/jef/streetmerchant/commit/e1b43206fcf037c140e507bb4d08c72248d76dcc))
+* replace runs with run ([9ec2018](https://github.com/jef/streetmerchant/commit/9ec2018d58438897cb7ed01157433536171754ae))
+* use github actor ([cf83753](https://github.com/jef/streetmerchant/commit/cf83753853344a328379f0b3f101a26957254096))
+* use github token ([27dc9d2](https://github.com/jef/streetmerchant/commit/27dc9d220ccc9ea98976ec271c526d72c8724b9a))
+* use single quotes ([bfc5bfd](https://github.com/jef/streetmerchant/commit/bfc5bfd29f0034e99a7d2f006cd480401c0cfd35))
+
 ## [3.7.1](https://github.com/jef/streetmerchant/compare/v3.7.0...v3.7.1) (2022-10-21)
 
 
