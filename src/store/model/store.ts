@@ -36,7 +36,9 @@ export type Brand =
   | 'ubiquiti'
   | 'xfx'
   | 'zotac'
-  | 'bandai';
+  | 'bandai'
+  | 'kotobukiya'
+  | 'good smile';
 
 export type Series =
   | 'test:series'
@@ -72,7 +74,20 @@ export type Series =
   | 'xboxss'
   | 'pg exia'
   | 'pg exia lighting'
-  | 'pg exia led';
+  | 'pg exia led'
+  | 'mg fazz vk'
+  | 'mg psycho zaku ii'
+  | 'rg eva-06'
+  | 'rg eva-08'
+  | 'rg build strike'
+  | 'rg johnny zaku ii'
+  | 'md susanowo souen'
+  | 'pso2 stella tears'
+  | 'fm aerial'
+  | 'mg zeta vk'
+  | 'md scale asra archer'
+  | 'md scale asra ninja'
+  | 'scale xenoblade nia';
 
 export type Model =
   | 'test:model'
@@ -254,7 +269,8 @@ export type Model =
   | 'xlr8 uprising'
   | 'xtreme'
   | 'qick'
-  | 'gundam';
+  | 'model kit'
+  | 'figure';
 
 export type Link = {
   brand: Brand;
