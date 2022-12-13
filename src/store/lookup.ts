@@ -564,7 +564,11 @@ async function runCaptchaDeterrent(browser: Browser, store: Store, page: Page) {
   }
 }
 
-export async function tryLookupAndLoop(browser: Browser, store: Store) {
+export async function tryLookupAndLoop(
+  browser: Browser,
+  store: Store,
+  doLoopAndSleep: Boolean = true
+) {
   if (!browser.isConnected()) {
     logger.silly(`[${store.name}] Ending this loop as browser is disposed...`);
     return;
@@ -577,7 +581,9 @@ export async function tryLookupAndLoop(browser: Browser, store: Store) {
     logger.error(error);
   }
 
-  const sleepTime = getSleepTime(store);
-  logger.silly(`[${store.name}] Lookup done, next one in ${sleepTime} ms`);
-  setTimeout(tryLookupAndLoop, sleepTime, browser, store);
+  if (doLoopAndSleep) {
+    const sleepTime = getSleepTime(store);
+    logger.silly(`[${store.name}] Lookup done, next one in ${sleepTime} ms`);
+    setTimeout(tryLookupAndLoop, sleepTime, browser, store, doLoopAndSleep);
+  }
 }

@@ -199,6 +199,7 @@ const browser = {
   ),
   open: envOrBoolean(process.env.OPEN_BROWSER),
   userAgent: '',
+  singleBrowserThread: envOrBoolean(process.env.SINGLE_BROWSER_THREAD, false),
 };
 
 const captchaHandler = {

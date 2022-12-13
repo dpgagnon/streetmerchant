@@ -30,6 +30,30 @@ async function restartMain() {
 async function main() {
   browser = await launchBrowser();
 
+  if (config.browser.singleBrowserThread) {
+    loopStoresSingleThread(browser);
+  } else {
+    loopStoresMultiThread(browser);
+  }
+
+  await startAPIServer();
+}
+
+async function loopStoresSingleThread(browser: Browser) {
+  let maxSleepTime = 0;
+  for (const store of storeList.values()) {
+    logger.debug('store links', {meta: {links: store.links}});
+    if (store.setupAction !== undefined) {
+      store.setupAction(browser);
+    }
+
+    await tryLookupAndLoop(browser, store, false);
+    maxSleepTime = Math.max(maxSleepTime, getSleepTime(store));
+  }
+  setTimeout(loopStoresSingleThread, maxSleepTime, browser);
+}
+
+async function loopStoresMultiThread(browser: Browser) {
   for (const store of storeList.values()) {
     logger.debug('store links', {meta: {links: store.links}});
     if (store.setupAction !== undefined) {
@@ -38,8 +62,6 @@ async function main() {
 
     setTimeout(tryLookupAndLoop, getSleepTime(store), browser, store);
   }
-
-  await startAPIServer();
 }
 
 async function stop() {
