@@ -411,6 +411,7 @@ const store = {
       'pg exia': 19800,
       'pg exia led': 15400,
       'mg fazz vk': 12100,
+      'mg deep striker': 22000,
       'rg eva-06': 5280,
       'rg eva-08': 4950,
       'rg build strike': 2750,

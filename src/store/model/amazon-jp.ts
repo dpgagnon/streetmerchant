@@ -87,6 +87,12 @@ export const AmazonJp: Store = {
       url: 'https://www.amazon.co.jp/-/en/dp/B0BGN9421J/',
     },
     {
+      brand: 'bandai',
+      model: 'model kit',
+      series: 'mg deep striker',
+      url: 'https://www.amazon.co.jp/-/en/dp/B078KGV9KT',
+    },
+    {
       brand: 'kotobukiya',
       model: 'model kit',
       series: 'md susanowo souen',
