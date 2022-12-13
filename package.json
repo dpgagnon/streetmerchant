@@ -36,7 +36,7 @@
   "homepage": "https://github.com/dpgagnon/streetmerchant#readme",
   "dependencies": {
     "@doridian/puppeteer-page-proxy": "^1.2.11",
-    "@dpgagnon/pushbullet": "^2.4.3",
+    "@jef/pushbullet": "^2.4.3",
     "@parse/node-apn": "^5.0.0",
     "@slack/web-api": "^6.3.0",
     "chalk": "^4.1.2",

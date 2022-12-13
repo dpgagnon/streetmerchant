@@ -76,7 +76,6 @@ export type Series =
   | 'pg exia lighting'
   | 'pg exia led'
   | 'mg fazz vk'
-  | 'mg psycho zaku ii'
   | 'rg eva-06'
   | 'rg eva-08'
   | 'rg build strike'

@@ -411,7 +411,6 @@ const store = {
       'pg exia': 19800,
       'pg exia led': 15400,
       'mg fazz vk': 12100,
-      'mg psycho zaku ii': 9900,
       'rg eva-06': 5280,
       'rg eva-08': 4950,
       'rg build strike': 2750,
@@ -467,8 +466,7 @@ const store = {
       series: envOrString(series),
     };
   }),
-  showOnlySeries: envOrArray(process.env.SHOW_ONLY_SERIES, [
-  ]),
+  showOnlySeries: envOrArray(process.env.SHOW_ONLY_SERIES, []),
   stores: envOrArray(process.env.STORES, ['amazon', 'bestbuy']).map(entry => {
     const [name, minPageSleep, maxPageSleep] = entry.match(/[^:]+/g) ?? [];
 

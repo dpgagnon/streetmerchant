@@ -86,6 +86,7 @@ import {GamestopDE} from './gamestop-de';
 import {GamestopIE} from './gamestop-ie';
 import {GamestopIT} from './gamestop-it';
 import {Globaldata} from './globaldata';
+import {GundamHobbyCa} from './gundamhobby-ca';
 import {HardwarePlanet} from './hardware-planet';
 import {HarrisTechnology} from './harristechnology';
 import {HarveyNormanIE} from './harveynorman-ie';
@@ -258,6 +259,7 @@ export const storeList = new Map([
   [GamestopIE.name, GamestopIE],
   [GamestopIT.name, GamestopIT],
   [Globaldata.name, Globaldata],
+  [GundamHobbyCa.name, GundamHobbyCa],
   [HardwarePlanet.name, HardwarePlanet],
   [HarrisTechnology.name, HarrisTechnology],
   [HarveyNormanIE.name, HarveyNormanIE],

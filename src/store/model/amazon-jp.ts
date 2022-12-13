@@ -3,13 +3,22 @@ import {Store} from './store';
 export const AmazonJp: Store = {
   currency: '¥',
   labels: {
+    captcha: {
+      container: 'body',
+      text: ['enter the characters you see below'],
+    },
+    captchaHandler: {
+      challenge: 'img',
+      input: '#captchacharacters',
+      submit: 'button[type="submit"]',
+    },
     inStock: {
       container: '#desktop_buybox',
       text: ['add to cart'],
     },
     maxPrice: {
       container: '.a-price-whole',
-      euroFormat: false
+      euroFormat: false,
     },
     outOfStock: {
       container: '.a-price-whole',
@@ -40,12 +49,6 @@ export const AmazonJp: Store = {
       model: 'model kit',
       series: 'mg fazz vk',
       url: 'https://www.amazon.co.jp/-/en/dp/B07YNQ1NZK/',
-    },
-    {
-      brand: 'bandai',
-      model: 'model kit',
-      series: 'mg psycho zaku ii',
-      url: 'https://www.amazon.co.jp/-/en/dp/B09L1JFG8D/',
     },
     {
       brand: 'bandai',
