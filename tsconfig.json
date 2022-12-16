@@ -5,6 +5,7 @@
     "outDir": "build",
     "resolveJsonModule": true,
     "rootDir": ".",
+    "lib": ["dom"],
     // todo: remove
     "skipLibCheck": true
   },
