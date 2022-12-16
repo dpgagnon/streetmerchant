@@ -231,25 +231,7 @@ const notifications = {
   discord: {
     notifyGroup: envOrArray(process.env.DISCORD_NOTIFY_GROUP),
     notifyGroupSeries: {
-      3060: envOrArray(process.env.DISCORD_NOTIFY_GROUP_3060),
-      '3060ti': envOrArray(process.env.DISCORD_NOTIFY_GROUP_3060TI),
-      3070: envOrArray(process.env.DISCORD_NOTIFY_GROUP_3070),
-      '3070ti': envOrArray(process.env.DISCORD_NOTIFY_GROUP_3070TI),
-      3080: envOrArray(process.env.DISCORD_NOTIFY_GROUP_3080),
-      '3080ti': envOrArray(process.env.DISCORD_NOTIFY_GROUP_3080TI),
-      3090: envOrArray(process.env.DISCORD_NOTIFY_GROUP_3090),
-      4090: envOrArray(process.env.DISCORD_NOTIFY_GROUP_4090),
       'captcha-deterrent': [],
-      darkhero: envOrArray(process.env.DISCORD_NOTIFY_GROUP_DARKHERO),
-      rx6700xt: envOrArray(process.env.DISCORD_NOTIFY_GROUP_RX6700XT),
-      rx6800: envOrArray(process.env.DISCORD_NOTIFY_GROUP_RX6800),
-      rx6800xt: envOrArray(process.env.DISCORD_NOTIFY_GROUP_RX6800XT),
-      rx6900xt: envOrArray(process.env.DISCORD_NOTIFY_GROUP_RX6900XT),
-      ryzen5600: envOrArray(process.env.DISCORD_NOTIFY_GROUP_RYZEN5600),
-      ryzen5800: envOrArray(process.env.DISCORD_NOTIFY_GROUP_RYZEN5800),
-      ryzen5900: envOrArray(process.env.DISCORD_NOTIFY_GROUP_RYZEN5900),
-      ryzen5950: envOrArray(process.env.DISCORD_NOTIFY_GROUP_RYZEN5950),
-      sf: envOrArray(process.env.DISCORD_NOTIFY_GROUP_CORSAIR_SF),
       sonyps5c: envOrArray(process.env.DISCORD_NOTIFY_GROUP_SONYPS5C),
       sonyps5de: envOrArray(process.env.DISCORD_NOTIFY_GROUP_SONYPS5DE),
       'test:series': envOrArray(process.env.DISCORD_NOTIFY_GROUP_TEST),
@@ -424,42 +406,14 @@ const store = {
       'md scale asra archer': -1,
       'md scale asra ninja': -1,
       'scale xenoblade nia': -1,
-      3050: envOrNumber(process.env.MAX_PRICE_SERIES_3050),
-      3060: envOrNumber(process.env.MAX_PRICE_SERIES_3060),
-      '3060ti': envOrNumber(process.env.MAX_PRICE_SERIES_3060TI),
-      3070: envOrNumber(process.env.MAX_PRICE_SERIES_3070),
-      '3070ti': envOrNumber(process.env.MAX_PRICE_SERIES_3070TI),
-      3080: envOrNumber(process.env.MAX_PRICE_SERIES_3080),
-      '3080ti': envOrNumber(process.env.MAX_PRICE_SERIES_3080TI),
-      3090: envOrNumber(process.env.MAX_PRICE_SERIES_3090),
-      4090: envOrNumber(process.env.MAX_PRICE_SERIES_4090),
       'captcha-deterrent': 0,
-      darkhero: envOrNumber(process.env.MAX_PRICE_SERIES_DARKHERO),
-      'g4-doorbell-pro': envOrNumber(
-        process.env.MAX_PRICE_SERIES_G4_DOORBELL_PRO
-      ),
-      rx6700xt: envOrNumber(process.env.MAX_PRICE_SERIES_RX6700XT),
-      rx6800: envOrNumber(process.env.MAX_PRICE_SERIES_RX6800),
-      rx6800xt: envOrNumber(process.env.MAX_PRICE_SERIES_RX6800XT),
-      rx6900xt: envOrNumber(process.env.MAX_PRICE_SERIES_RX6900XT),
-      ryzen5600: envOrNumber(process.env.MAX_PRICE_SERIES_RYZEN5600),
-      ryzen5800: envOrNumber(process.env.MAX_PRICE_SERIES_RYZEN5800),
-      ryzen5900: envOrNumber(process.env.MAX_PRICE_SERIES_RYZEN5900),
-      ryzen5950: envOrNumber(process.env.MAX_PRICE_SERIES_RYZEN5950),
-      sf: envOrNumber(process.env.MAX_PRICE_SERIES_CORSAIR_SF),
       sonyps5c: envOrNumber(process.env.MAX_PRICE_SERIES_SONYPS5C),
       sonyps5de: envOrNumber(process.env.MAX_PRICE_SERIES_SONYPS5DE),
       'test:series': envOrNumber(process.env.MAX_PRICE_SERIES_TEST),
-      'udm-pro': envOrNumber(process.env.MAX_PRICE_SERIES_UDM_PRO),
-      'udm-us': envOrNumber(process.env.MAX_PRICE_SERIES_UDM_US),
-      'udr-us': envOrNumber(process.env.MAX_PRICE_SERIES_UDR_US),
-      unvr: envOrNumber(process.env.MAX_PRICE_SERIES_UNVR),
-      'unvr-pro': envOrNumber(process.env.MAX_PRICE_SERIES_UNVR_PRO),
       xboxss: envOrNumber(process.env.MAX_PRICE_SERIES_XBOXSS),
       xboxsx: envOrNumber(process.env.MAX_PRICE_SERIES_XBOXSX),
     },
   },
-  microCenterLocation: envOrArray(process.env.MICROCENTER_LOCATION, ['web']),
   showOnlyBrands: envOrArray(process.env.SHOW_ONLY_BRANDS),
   showOnlyModels: envOrArray(process.env.SHOW_ONLY_MODELS).map(entry => {
     const [name, series] = entry.match(/[^:]+/g) ?? [];
@@ -469,7 +423,7 @@ const store = {
     };
   }),
   showOnlySeries: envOrArray(process.env.SHOW_ONLY_SERIES, []),
-  stores: envOrArray(process.env.STORES, ['amazon', 'bestbuy']).map(entry => {
+  stores: envOrArray(process.env.STORES, ['amazon-jp']).map(entry => {
     const [name, minPageSleep, maxPageSleep] = entry.match(/[^:]+/g) ?? [];
 
     let proxyList = loadProxyList(name);
