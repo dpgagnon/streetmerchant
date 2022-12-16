@@ -1,1 +1,1 @@
-rsync --rsync-path="sudo rsync" -rzva --exclude "${1}/.git/" --exclude "${1}/package-lock.json" --exclude "${1}/screenshots/" --exclude "${1}/build" --exclude "${1}/coverage" --exclude "${1}/docs/" --exclude "${1}/node_modules/" "${1}" aws-personal:~/streetmerchant/
+rsync --rsync-path="sudo rsync" -rzva --exclude "/.git/" --exclude "/package-lock.json" --exclude "/screenshots/" --exclude "/build" --exclude "/coverage" --exclude "/docs/" --exclude "/node_modules/" "${1}" aws-personal:~/streetmerchant/
