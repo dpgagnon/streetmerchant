@@ -65,12 +65,6 @@ export const AmazonJp: Store = {
     {
       brand: 'bandai',
       model: 'model kit',
-      series: 'rg build strike',
-      url: 'https://www.amazon.co.jp/-/en/dp/B01LX4WDRM/',
-    },
-    {
-      brand: 'bandai',
-      model: 'model kit',
       series: 'rg johnny zaku ii',
       url: 'https://www.amazon.co.jp/-/en/dp/B075CLGPC9/',
     },
@@ -121,6 +115,12 @@ export const AmazonJp: Store = {
       model: 'figure',
       series: 'scale xenoblade nia',
       url: 'https://www.amazon.co.jp/-/en/dp/B09S37J9F9/',
+    },
+    {
+      brand: 'good smile',
+      model: 'figure',
+      series: 'pup guts zerker L',
+      url: 'https://www.amazon.co.jp/-/en/dp/B0B3J6HFGX',
     },
   ],
   name: 'amazon-jp',

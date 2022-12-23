@@ -54,12 +54,6 @@ export const GundamHangarCa: Store = {
     {
       brand: 'bandai',
       model: 'model kit',
-      series: 'rg build strike',
-      url: 'https://gundamhangar.com/canadian-gundam-store/product/rg-1-144-gat-x105b-fp-build-strike-gundam-full-package',
-    },
-    {
-      brand: 'bandai',
-      model: 'model kit',
       series: 'rg johnny zaku ii',
       url: 'https://gundamhangar.com/canadian-gundam-store/product/rg-1-144-ms-06r-2-johnny-riddens-zaku-ii',
     },

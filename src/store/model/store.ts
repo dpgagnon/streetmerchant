@@ -33,7 +33,6 @@ export type Series =
   | 'mg deep striker'
   | 'rg eva-06'
   | 'rg eva-08'
-  | 'rg build strike'
   | 'rg johnny zaku ii'
   | 'md susanowo souen'
   | 'pso2 stella tears'
@@ -41,7 +40,8 @@ export type Series =
   | 'mg zeta vk'
   | 'md scale asra archer'
   | 'md scale asra ninja'
-  | 'scale xenoblade nia';
+  | 'scale xenoblade nia'
+  | 'pup guts zerker L';
 
 export type Model =
   | 'test:model'

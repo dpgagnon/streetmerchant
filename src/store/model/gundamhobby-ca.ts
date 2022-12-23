@@ -52,12 +52,6 @@ export const GundamHobbyCa: Store = {
     {
       brand: 'bandai',
       model: 'model kit',
-      series: 'rg build strike',
-      url: 'https://www.gundamhobby.ca/products/rg-build-strike-gundam-full-package',
-    },
-    {
-      brand: 'bandai',
-      model: 'model kit',
       series: 'rg johnny zaku ii',
       url: 'https://www.gundamhobby.ca/products/rg-ms-06r-2-johnny-ridden-custom-zaku-ii',
     },
