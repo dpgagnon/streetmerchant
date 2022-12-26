@@ -399,7 +399,6 @@ const store = {
       'rg eva-08': 4950,
       'rg johnny zaku ii': 3300,
       'md susanowo souen': 11990,
-      'pso2 stella tears': 6600,
       'fm aerial': -1,
       'mg zeta vk': -1,
       'md scale asra archer': -1,

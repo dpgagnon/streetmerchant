@@ -35,7 +35,6 @@ export type Series =
   | 'rg eva-08'
   | 'rg johnny zaku ii'
   | 'md susanowo souen'
-  | 'pso2 stella tears'
   | 'fm aerial'
   | 'mg zeta vk'
   | 'md scale asra archer'

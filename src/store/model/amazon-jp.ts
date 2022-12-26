@@ -94,12 +94,6 @@ export const AmazonJp: Store = {
     },
     {
       brand: 'kotobukiya',
-      model: 'model kit',
-      series: 'pso2 stella tears',
-      url: 'https://www.amazon.co.jp/-/en/dp/B084692TSZ/',
-    },
-    {
-      brand: 'kotobukiya',
       model: 'figure',
       series: 'md scale asra archer',
       url: 'https://www.amazon.co.jp/-/en/dp/B0BHL2HG19/',
