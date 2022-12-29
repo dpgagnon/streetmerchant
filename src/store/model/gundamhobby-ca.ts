@@ -61,20 +61,6 @@ export const GundamHobbyCa: Store = {
       series: 'mg deep striker',
       url: 'https://www.gundamhobby.ca/products/mg-deep-striker-gundam-sentinel',
     },
-    /*
-    {
-      brand: 'bandai',
-      model: 'model kit',
-      series: 'fm aerial',
-      url: 'https://www.amazon.co.jp/-/en/dp/B0BGNCF723/',
-    },
-    {
-      brand: 'bandai',
-      model: 'model kit',
-      series: 'mg zeta vk',
-      url: 'https://www.amazon.co.jp/-/en/dp/B0BGN9421J/',
-    },
-    */
   ],
   name: 'gundamhobby-ca',
   waitUntil: 'domcontentloaded',

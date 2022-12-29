@@ -71,18 +71,6 @@ export const AmazonJp: Store = {
     {
       brand: 'bandai',
       model: 'model kit',
-      series: 'fm aerial',
-      url: 'https://www.amazon.co.jp/-/en/dp/B0BGNCF723/',
-    },
-    {
-      brand: 'bandai',
-      model: 'model kit',
-      series: 'mg zeta vk',
-      url: 'https://www.amazon.co.jp/-/en/dp/B0BGN9421J/',
-    },
-    {
-      brand: 'bandai',
-      model: 'model kit',
       series: 'mg deep striker',
       url: 'https://www.amazon.co.jp/-/en/dp/B078KGV9KT',
     },
