@@ -401,6 +401,8 @@ const store = {
       'md susanowo souen': 11990,
       'md scale asra archer': -1,
       'md scale asra ninja': -1,
+      'pso2 scale matoi': -1,
+      'pso2 scale gene stellar memories': -1,
       'scale xenoblade nia': -1,
       'pup guts zerker L': -1,
       'captcha-deterrent': 0,
