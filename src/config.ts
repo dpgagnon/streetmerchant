@@ -392,7 +392,7 @@ const store = {
     series: {
       'pg exia lighting': 35200,
       'pg exia': 19800,
-      'pg exia led': 15400,
+      'pg exia led': 15399,
       'mg fazz vk': 12100,
       'mg deep striker': 22000,
       'rg eva-06': 5280,
