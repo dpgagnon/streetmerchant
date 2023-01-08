@@ -160,7 +160,7 @@ function envOrNumberMax(
   return number ?? 0;
 }
 
-function loadProxyList(filename: string): string[] | undefined {
+function loadProxyList(filename: string | undefined): string[] | undefined {
   try {
     return readFileSync(`${filename}.proxies`)
       .toString()
