@@ -37,6 +37,7 @@ export type Series =
   | 'md susanowo souen'
   | 'md scale asra archer'
   | 'md scale asra ninja'
+  | 'arcanadia yukumo'
   | 'pso2 scale gene stellar memories'
   | 'pso2 scale matoi'
   | 'scale xenoblade nia'

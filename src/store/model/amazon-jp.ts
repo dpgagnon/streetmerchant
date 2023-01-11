@@ -82,6 +82,12 @@ export const AmazonJp: Store = {
     },
     {
       brand: 'kotobukiya',
+      model: 'model kit',
+      series: 'arcanadia yukumo',
+      url: 'https://www.amazon.co.jp/-/en/dp/B0BRRGV4ZG/',
+    },
+    {
+      brand: 'kotobukiya',
       model: 'figure',
       series: 'md scale asra archer',
       url: 'https://www.amazon.co.jp/-/en/dp/B0BHL2HG19/',

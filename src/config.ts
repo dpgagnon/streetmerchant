@@ -401,6 +401,7 @@ const store = {
       'md susanowo souen': 11990,
       'md scale asra archer': 27500,
       'md scale asra ninja': 27500,
+      'arcanadia yukumo': 9240,
       'pso2 scale matoi': 18700,
       'pso2 scale gene stellar memories': 18700,
       'scale xenoblade nia': 26000,
