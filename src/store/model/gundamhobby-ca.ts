@@ -19,12 +19,14 @@ export const GundamHobbyCa: Store = {
       series: 'pg exia lighting',
       url: 'http://www.gundamhobby.ca/products/pg-gundam-exia-lighting-model-pre-order-item-available-in-jan-2018',
     },
+    /*
     {
       brand: 'bandai',
       model: 'model kit',
       series: 'pg exia led',
       url: 'https://www.gundamhobby.ca/products/pg-led-unit-for-gundam-exia',
     },
+    */
     {
       brand: 'bandai',
       model: 'model kit',

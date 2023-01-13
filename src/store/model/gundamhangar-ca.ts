@@ -13,20 +13,6 @@ export const GundamHangarCa: Store = {
     },
   },
   links: [
-    /*
-    {
-      brand: 'bandai',
-      model: 'model kit',
-      series: 'pg exia lighting',
-      url: '',
-    },
-    {
-      brand: 'bandai',
-      model: 'model kit',
-      series: 'pg exia led',
-      url: 'https://gundamhangar.com/canadian-gundam-store/product/pg-1-60-led-unit-for-gundam-exia',
-    },
-    */
     {
       brand: 'bandai',
       model: 'model kit',
