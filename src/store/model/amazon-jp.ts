@@ -32,12 +32,14 @@ export const AmazonJp: Store = {
       series: 'pg exia lighting',
       url: 'https://www.amazon.co.jp/-/en/dp/B075ZXST4L/',
     },
+    /*
     {
       brand: 'bandai',
       model: 'model kit',
       series: 'pg exia led',
       url: 'https://www.amazon.co.jp/-/en/dp/B07HJFJQB4/',
     },
+    */
     {
       brand: 'bandai',
       model: 'model kit',
