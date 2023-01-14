@@ -16,6 +16,7 @@ screenshots/
 *.flac
 *.exe
 desktop.ini
+nohup.out
 
 twitch.json
 terraform/terraform.tfstate
