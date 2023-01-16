@@ -31,7 +31,7 @@ if [ -z "$pid" ]; then
 else
     echo "Successfully found running task with pid ${pid}"
     
-    lastlogtime=$(tail -1 $log_path | grep -o -E '[0-9][0-9]:[0-9][0-9]:[0-9][0-9] [A|P]M')
+    lastlogtime=$(tail -1 $log_path | grep -o -E '(0?[0-9]|1[0-9]|2[0-3]):[0-5][0-9]:[0-5][0-9] [A|P]M')
     echo "Last log time is: $lastlogtime"
 
     curtime=$(date +"%I:%M:%S %p")
