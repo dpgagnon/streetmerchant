@@ -5,9 +5,20 @@ if [ -z $1 ]; then
     exit 1
 fi
 
+if [ -z $2 ]; then
+    echo "Muse provide a log path to check"
+    exit 1
+fi
+
 restart_script=$1
 if ! test -e "$restart_script"; then
     echo "Error: $restart_script does not exist"
+    exit 1
+fi
+
+log_path=$2
+if ! test -e "$log_path"; then
+    echo "Error:  $log_path does not exist"
     exit 1
 fi
 
@@ -20,7 +31,7 @@ if [ -z "$pid" ]; then
 else
     echo "Successfully found running task with pid ${pid}"
     
-    lastlogtime=$(tail -1 nohup.out | grep -o -E '[0-9][0-9]:[0-9][0-9]:[0-9][0-9] [A|P]M')
+    lastlogtime=$(tail -1 $log_path | grep -o -E '[0-9][0-9]:[0-9][0-9]:[0-9][0-9] [A|P]M')
     echo "Last log time is: $lastlogtime"
 
     curtime=$(date +"%I:%M:%S %p")
