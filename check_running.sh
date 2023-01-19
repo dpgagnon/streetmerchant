@@ -59,5 +59,5 @@ else
 fi
 
 if [ $need_restart -eq 1 ]; then
-    ./$restart_script
+    $restart_script
 fi
