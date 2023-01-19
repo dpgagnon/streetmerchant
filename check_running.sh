@@ -59,5 +59,8 @@ else
 fi
 
 if [ $need_restart -eq 1 ]; then
-    $restart_script
+    pushd `dirname $restart_script`
+    script_name=$(basename $restart_script)
+    ./$script_name
+    popd
 fi
