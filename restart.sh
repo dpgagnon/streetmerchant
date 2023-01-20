@@ -10,4 +10,4 @@ else
 fi
 
 echo "starting npm"
-nohup npm run start& >> nohup.out 2>&1
+nohup npm run start >> nohup.out&
