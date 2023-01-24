@@ -97,12 +97,6 @@ export const AmazonJp: Store = {
     {
       brand: 'kotobukiya',
       model: 'figure',
-      series: 'md scale asra ninja',
-      url: 'https://www.amazon.co.jp/-/en/dp/B09S94LRTN/',
-    },
-    {
-      brand: 'kotobukiya',
-      model: 'figure',
       series: 'pso2 scale gene stellar memories',
       url: 'https://www.amazon.co.jp/-/en/dp/B0BL6PWK1X/',
     },
