@@ -79,12 +79,6 @@ export const AmazonJp: Store = {
     {
       brand: 'kotobukiya',
       model: 'model kit',
-      series: 'md susanowo souen',
-      url: 'https://www.amazon.co.jp/-/en/dp/B0B5SPYRF9/',
-    },
-    {
-      brand: 'kotobukiya',
-      model: 'model kit',
       series: 'arcanadia yukumo',
       url: 'https://www.amazon.co.jp/-/en/dp/B0BRRGV4ZG/',
     },
