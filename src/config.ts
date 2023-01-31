@@ -403,7 +403,6 @@ const store = {
       'pso2 scale matoi': 18700,
       'pso2 scale gene stellar memories': 18700,
       'scale xenoblade nia': 26000,
-      'pup guts zerker L': 8800,
       'captcha-deterrent': 0,
       sonyps5c: envOrNumber(process.env.MAX_PRICE_SERIES_SONYPS5C),
       sonyps5de: envOrNumber(process.env.MAX_PRICE_SERIES_SONYPS5DE),

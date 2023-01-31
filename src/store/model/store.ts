@@ -38,8 +38,7 @@ export type Series =
   | 'arcanadia yukumo'
   | 'pso2 scale gene stellar memories'
   | 'pso2 scale matoi'
-  | 'scale xenoblade nia'
-  | 'pup guts zerker L';
+  | 'scale xenoblade nia';
 
 export type Model =
   | 'test:model'
