@@ -16,12 +16,6 @@ export const GundamHangarCa: Store = {
     {
       brand: 'bandai',
       model: 'model kit',
-      series: 'pg exia',
-      url: 'https://gundamhangar.com/canadian-gundam-store/product/pg-gundam-exia',
-    },
-    {
-      brand: 'bandai',
-      model: 'model kit',
       series: 'mg fazz vk',
       url: 'https://gundamhangar.com/canadian-gundam-store/product/mg-fazz-verka',
     },

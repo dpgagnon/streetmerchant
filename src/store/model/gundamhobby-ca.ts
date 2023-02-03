@@ -16,26 +16,6 @@ export const GundamHobbyCa: Store = {
     {
       brand: 'bandai',
       model: 'model kit',
-      series: 'pg exia lighting',
-      url: 'http://www.gundamhobby.ca/products/pg-gundam-exia-lighting-model-pre-order-item-available-in-jan-2018',
-    },
-    /*
-    {
-      brand: 'bandai',
-      model: 'model kit',
-      series: 'pg exia led',
-      url: 'https://www.gundamhobby.ca/products/pg-led-unit-for-gundam-exia',
-    },
-    */
-    {
-      brand: 'bandai',
-      model: 'model kit',
-      series: 'pg exia',
-      url: 'https://www.gundamhobby.ca/products/pg-gundam-exia',
-    },
-    {
-      brand: 'bandai',
-      model: 'model kit',
       series: 'mg fazz vk',
       url: 'https://www.gundamhobby.ca/products/mg-fazz-ver-ka',
     },
