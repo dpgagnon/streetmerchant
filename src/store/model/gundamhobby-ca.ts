@@ -43,6 +43,12 @@ export const GundamHobbyCa: Store = {
       series: 'mg deep striker',
       url: 'https://www.gundamhobby.ca/products/mg-deep-striker-gundam-sentinel',
     },
+    {
+      brand: 'bandai',
+      model: 'model kit',
+      series: 'mg ex-s',
+      url: 'https://www.gundamhobby.ca/products/mg-ex-s-gundam-s-gundam',
+    },
   ],
   name: 'gundamhobby-ca',
   waitUntil: 'domcontentloaded',

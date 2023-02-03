@@ -57,6 +57,12 @@ export const AmazonJp: Store = {
       url: 'https://www.amazon.co.jp/-/en/dp/B078KGV9KT',
     },
     {
+      brand: 'bandai',
+      model: 'model kit',
+      series: 'mg ex-s',
+      url: 'https://www.amazon.co.jp/-/en/dp/B07N6NL1CC',
+    },
+    {
       brand: 'kotobukiya',
       model: 'model kit',
       series: 'arcanadia yukumo',
