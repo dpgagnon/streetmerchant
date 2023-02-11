@@ -43,12 +43,6 @@ export const GundamHangarCa: Store = {
       series: 'mg deep striker',
       url: 'https://gundamhangar.com/canadian-gundam-store/product/mg-1-100-plan303e-deep-striker',
     },
-    {
-      brand: 'bandai',
-      model: 'model kit',
-      series: 'mg ex-s',
-      url: 'https://gundamhangar.com/canadian-gundam-store/product/mg-1-100-ex-s-gundam-s-gundam',
-    },
   ],
   name: 'gundamhangar-ca',
   waitUntil: 'domcontentloaded',
