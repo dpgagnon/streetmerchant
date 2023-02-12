@@ -32,6 +32,7 @@ export type Series =
   | 'rg eva-08'
   | 'rg johnny zaku ii'
   | 'md scale asra archer'
+  | 'md amaterasu'
   | 'arcanadia yukumo'
   | 'pso2 scale gene stellar memories'
   | 'pso2 scale matoi'

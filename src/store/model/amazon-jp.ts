@@ -64,6 +64,12 @@ export const AmazonJp: Store = {
     },
     {
       brand: 'kotobukiya',
+      model: 'model kit',
+      series: 'md amaterasu',
+      url: 'https://www.amazon.co.jp/-/en/dp/B0BV176QT7/',
+    },
+    {
+      brand: 'kotobukiya',
       model: 'figure',
       series: 'md scale asra archer',
       url: 'https://www.amazon.co.jp/-/en/dp/B0BHL2HG19/',
