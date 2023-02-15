@@ -27,24 +27,24 @@ fi
 INTERVAL=$4
 
 dns_ip=$(dig $HOST.$DOMAIN +short) #Check the registered IP in DNS
-print "Started dydns daemon. Current DNS IP is $dns_ip"
+echo "Started dydns daemon. Current DNS IP is $dns_ip"
 
 while true
 do
     public_ip=$(dig TXT +short o-o.myaddr.l.google.com @ns1.google.com|awk -F'"' '{print $2}') #Check Public IP
-    print "Public IP is $public_ip"
+    echo "Public IP is $public_ip"
     if [ "$public_ip" != "$dns_ip" ]
     then
-        print "IPs are different, calling dydns"
+        echo "IPs are different, calling dydns"
         curl "https://dynamicdns.park-your-domain.com/update?host=$HOST&domain=$DOMAIN&password=$PASSWORD&ip=$public_ip"
         
-        print "Done. Waiting 300 seconds."
+        echo "Done. Waiting 300 seconds."
         sleep 300 #Allow the DNS server to update
         
         dns_ip=$(dig $HOST.$DOMAIN +short) #Check the new IP and use new IP to compare to current IP
-        print "Finished waiting, current DNS IP is $dns_ip"
+        echo "Finished waiting, current DNS IP is $dns_ip"
     else
-        print "IP has not changed"
+        echo "IP has not changed"
     fi
     sleep $(($INTERVAL*60))
 done
