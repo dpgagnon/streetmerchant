@@ -34,6 +34,12 @@ export const AmazonCa: Store = {
       url: 'https://www.amazon.ca/dp/B07PBLD2MX',
     },
     {
+      brand: 'kotobukiya',
+      model: 'model kit',
+      series: 'zoids gojulas',
+      url: 'https://www.amazon.ca/dp/B09S9CFY5J/',
+    },
+    {
       brand: 'sony',
       cartUrl:
         'https://www.amazon.ca/gp/aws/cart/add.html?ASIN.1=B08GSC5D9G&Quantity.1=1',

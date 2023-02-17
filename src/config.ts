@@ -396,6 +396,7 @@ const store = {
       'rg eva-08': 4950,
       'rg johnny zaku ii': 3300,
       'md amaterasu': 7700,
+      'zoids gojulas': -1,
       'md scale asra archer': 27500,
       'arcanadia yukumo': 9240,
       'pso2 scale matoi': 18700,
