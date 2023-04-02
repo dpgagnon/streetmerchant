@@ -17,10 +17,10 @@ export const AmazonCa: Store = {
       text: ['add to cart'],
     },
     maxPrice: {
-      container: '.a-color-price',
+      container: '.a-price-whole',
     },
     outOfStock: {
-      container: '.a-color-price',
+      container: '.a-price-whole',
       text: ['currently unavailable.'],
     },
   },
