@@ -390,6 +390,7 @@ const store = {
   country: envOrString(process.env.COUNTRY, 'usa'),
   maxPrice: {
     series: {
+      'mg avalance exia': -1,
       'mg fazz vk': 12100,
       'mg deep striker': 22000,
       'rg eva-06': 5280,
