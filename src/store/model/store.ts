@@ -26,6 +26,7 @@ export type Series =
   | 'sonyps5de'
   | 'xboxsx'
   | 'xboxss'
+  | 'mg avalanche exia'
   | 'mg fazz vk'
   | 'mg deep striker'
   | 'rg eva-06'
