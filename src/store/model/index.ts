@@ -2,6 +2,7 @@ import {config, defaultStoreData} from '../../config';
 import {Amazon} from './amazon';
 import {AmazonCa} from './amazon-ca';
 import {AmazonJp} from './amazon-jp';
+import {ArgamaHobbyCa} from './argamahobby-ca';
 import {BestBuyCa} from './bestbuy-ca';
 import {CanadaComputers} from './canadacomputers';
 import {GamestopCA} from './gamestop-ca';
@@ -11,6 +12,7 @@ import {MemoryExpress} from './memoryexpress';
 import {NeweggCa} from './newegg-ca';
 import {Store} from './store';
 import {ToysRUs} from './toysrus';
+import {TrinityHobbyCa} from './trinityhobby-ca';
 import {WalmartCa} from './walmart-ca';
 import {logger} from '../../logger';
 import chalk from 'chalk';
@@ -20,6 +22,7 @@ export const storeList = new Map([
   [Amazon.name, Amazon],
   [AmazonCa.name, AmazonCa],
   [AmazonJp.name, AmazonJp],
+  [ArgamaHobbyCa.name, ArgamaHobbyCa],
   [BestBuyCa.name, BestBuyCa],
   [CanadaComputers.name, CanadaComputers],
   [GamestopCA.name, GamestopCA],
@@ -29,6 +32,7 @@ export const storeList = new Map([
   [MicrosoftCA.name, MicrosoftCA],
   [NeweggCa.name, NeweggCa],
   [ToysRUs.name, ToysRUs],
+  [TrinityHobbyCa.name, TrinityHobbyCa],
   [WalmartCa.name, WalmartCa],
 ]);
 
