@@ -43,12 +43,6 @@ export const ArgamaHobbyCa: Store = {
       series: 'mg deep striker',
       url: 'https://argamahobby.com/products/master-grade-1-100-plan303e-deep-striker',
     },
-    {
-      brand: 'bandai',
-      model: 'model kit',
-      series: 'mg avalanche exia',
-      url: 'https://argamahobby.com/products/master-grade-1-100-gundam-exia-avalanche',
-    },
   ],
   name: 'argamahobby-ca',
   waitUntil: 'domcontentloaded',

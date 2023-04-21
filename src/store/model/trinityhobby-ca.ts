@@ -37,12 +37,6 @@ export const TrinityHobbyCa: Store = {
       series: 'mg deep striker',
       url: 'https://trinityhobby.com/products/mg-plan303e-deep-striker',
     },
-    // {
-    //   brand: 'bandai',
-    //   model: 'model kit',
-    //   series: 'mg avalanche exia',
-    //   url: 'https://trinityhobby.com/products/mg-1-100-gundam-avalanche-exia',
-    // },
   ],
   name: 'trinityhobby-ca',
   waitUntil: 'domcontentloaded',
