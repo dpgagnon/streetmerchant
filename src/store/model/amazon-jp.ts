@@ -86,6 +86,12 @@ export const AmazonJp: Store = {
       series: 'scale xenoblade nia',
       url: 'https://www.amazon.co.jp/-/en/dp/B09S37J9F9/',
     },
+    {
+      brand: 'kotobukiya',
+      model: 'model kit',
+      series: 'pyra amiibo',
+      url: 'https://www.amazon.co.jp/-/en/dp/B0BQ68CPW9/',
+    },
   ],
   name: 'amazon-jp',
 };
