@@ -20,10 +20,10 @@ export const BestBuyCa: Store = {
       url: 'https://www.bestbuy.ca/en-ca/product/google-nest-hello-wi-fi-video-doorbell-black-white/12222651',
     },
     {
-      brand: 'sony',
-      model: 'ps5 console',
-      series: 'sonyps5c',
-      url: 'https://www.bestbuy.ca/en-ca/product/playstation-5-console-online-only/14962185?intl=nosplash',
+      brand: 'kotobukiya',
+      model: 'model kit',
+      series: 'pyra amiibo',
+      url: 'https://www.bestbuy.ca/en-ca/product/amiibo-super-smash-bros-pyra-mythra/17074499',
     },
     {
       brand: 'sony',
