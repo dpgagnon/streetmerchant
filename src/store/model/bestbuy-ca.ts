@@ -26,6 +26,12 @@ export const BestBuyCa: Store = {
       url: 'https://www.bestbuy.ca/en-ca/product/amiibo-super-smash-bros-pyra-mythra/17074499',
     },
     {
+      brand: 'kotobukiya',
+      model: 'model kit',
+      series: '4090 fe',
+      url: 'https://www.bestbuy.ca/en-ca/product/nvidia-geforce-rtx-4090-24gb-gddr6-video-card/16531651',
+    },
+    {
       brand: 'sony',
       model: 'ps5 console',
       series: 'sonyps5de',
