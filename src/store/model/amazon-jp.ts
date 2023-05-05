@@ -41,12 +41,6 @@ export const AmazonJp: Store = {
     {
       brand: 'bandai',
       model: 'model kit',
-      series: 'rg eva-08',
-      url: 'https://www.amazon.co.jp/-/en/dp/B08KY7T7KN/',
-    },
-    {
-      brand: 'bandai',
-      model: 'model kit',
       series: 'rg johnny zaku ii',
       url: 'https://www.amazon.co.jp/-/en/dp/B075CLGPC9/',
     },

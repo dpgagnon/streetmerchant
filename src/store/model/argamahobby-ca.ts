@@ -28,12 +28,6 @@ export const ArgamaHobbyCa: Store = {
     {
       brand: 'bandai',
       model: 'model kit',
-      series: 'rg eva-08',
-      url: 'https://argamahobby.com/products/real-grade-general-purpose-humanoid-decisive-weapon-android-evangelion-regular-practical-type-ville-custom-unit-8-%CE%B1',
-    },
-    {
-      brand: 'bandai',
-      model: 'model kit',
       series: 'rg johnny zaku ii',
       url: 'https://argamahobby.com/products/bandai-real-grade-1-144-ms-06r-2-johnny-riddens-zaku-ii',
     },

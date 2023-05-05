@@ -28,12 +28,6 @@ export const GundamHobbyCa: Store = {
     {
       brand: 'bandai',
       model: 'model kit',
-      series: 'rg eva-08',
-      url: 'https://www.gundamhobby.ca/products/rg-evangelion-practical-type-ville-custom-08-alpha',
-    },
-    {
-      brand: 'bandai',
-      model: 'model kit',
       series: 'rg johnny zaku ii',
       url: 'https://www.gundamhobby.ca/products/rg-ms-06r-2-johnny-ridden-custom-zaku-ii',
     },

@@ -28,12 +28,6 @@ export const TrinityHobbyCa: Store = {
     {
       brand: 'bandai',
       model: 'model kit',
-      series: 'rg eva-08',
-      url: 'https://trinityhobby.com/products/pre-order-rg-multipurpose-humanoid-decisive-weapon-artificial-human-evangelion-unit-08a-mar-2021',
-    },
-    {
-      brand: 'bandai',
-      model: 'model kit',
       series: 'mg deep striker',
       url: 'https://trinityhobby.com/products/mg-plan303e-deep-striker',
     },
