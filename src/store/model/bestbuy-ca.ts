@@ -51,5 +51,5 @@ export const BestBuyCa: Store = {
     },
   ],
   name: 'bestbuy-ca',
-  waitUntil: 'networkidle2',
+  waitUntil: 'domcontentloaded',
 };
