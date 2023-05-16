@@ -392,7 +392,6 @@ const store = {
     series: {
       'mg fazz vk': 12100,
       'mg deep striker': 22000,
-      'rg eva-06': 5280,
       'rg johnny zaku ii': 3300,
       'zoids gojulas': 500,
       'pyra amiibo': -1,

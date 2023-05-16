@@ -22,12 +22,6 @@ export const TrinityHobbyCa: Store = {
     {
       brand: 'bandai',
       model: 'model kit',
-      series: 'rg eva-06',
-      url: 'https://trinityhobby.com/products/pre-order-rg-evangelion-unit-06-jul-aug-2021',
-    },
-    {
-      brand: 'bandai',
-      model: 'model kit',
       series: 'mg deep striker',
       url: 'https://trinityhobby.com/products/mg-plan303e-deep-striker',
     },

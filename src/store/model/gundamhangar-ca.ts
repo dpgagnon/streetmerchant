@@ -22,12 +22,6 @@ export const GundamHangarCa: Store = {
     {
       brand: 'bandai',
       model: 'model kit',
-      series: 'rg eva-06',
-      url: 'https://gundamhangar.com/canadian-gundam-store/product/rg-1-144-evangelion-mark06',
-    },
-    {
-      brand: 'bandai',
-      model: 'model kit',
       series: 'rg johnny zaku ii',
       url: 'https://gundamhangar.com/canadian-gundam-store/product/rg-1-144-ms-06r-2-johnny-riddens-zaku-ii',
     },

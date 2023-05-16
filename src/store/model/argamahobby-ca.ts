@@ -22,12 +22,6 @@ export const ArgamaHobbyCa: Store = {
     {
       brand: 'bandai',
       model: 'model kit',
-      series: 'rg eva-06',
-      url: 'https://argamahobby.com/products/real-grade-rg-neon-genesis-evangelion-evangelion-mk-06-eva06',
-    },
-    {
-      brand: 'bandai',
-      model: 'model kit',
       series: 'rg johnny zaku ii',
       url: 'https://argamahobby.com/products/bandai-real-grade-1-144-ms-06r-2-johnny-riddens-zaku-ii',
     },

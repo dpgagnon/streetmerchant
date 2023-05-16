@@ -28,7 +28,6 @@ export type Series =
   | 'xboxss'
   | 'mg fazz vk'
   | 'mg deep striker'
-  | 'rg eva-06'
   | 'rg johnny zaku ii'
   | 'md scale asra archer'
   | 'pyra amiibo'
