@@ -397,6 +397,7 @@ const store = {
       'pyra amiibo': -1,
       'md scale asra archer': 27500,
       'arcanadia yukumo': 9240,
+      'susanowo regalia': 7700,
       'pso2 scale matoi': 17500,
       'pso2 scale gene stellar memories': 17500,
       'scale xenoblade nia': 26000,
