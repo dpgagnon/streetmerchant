@@ -56,14 +56,6 @@ export const AmazonJp: Store = {
       series: 'susanowo regalia',
       url: 'https://www.amazon.co.jp/-/en/dp/B0C5D5XRFR',
     },
-    /*
-    {
-      brand: 'kotobukiya',
-      model: 'figure',
-      series: 'md scale asra archer',
-      url: 'https://www.amazon.co.jp/-/en/dp/B0BHL2HG19/',
-    },
-    */
     {
       brand: 'kotobukiya',
       model: 'figure',

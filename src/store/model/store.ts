@@ -29,7 +29,6 @@ export type Series =
   | 'mg fazz vk'
   | 'mg deep striker'
   | 'rg johnny zaku ii'
-  | 'md scale asra archer'
   | 'pyra amiibo'
   | 'zoids gojulas'
   | 'arcanadia yukumo'

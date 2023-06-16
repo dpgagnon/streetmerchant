@@ -395,7 +395,6 @@ const store = {
       'rg johnny zaku ii': 3300,
       'zoids gojulas': 400,
       'pyra amiibo': -1,
-      'md scale asra archer': 27000,
       'arcanadia yukumo': 9240,
       'susanowo regalia': 7700,
       'pso2 scale matoi': 17500,
