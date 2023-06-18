@@ -34,8 +34,7 @@ export type Series =
   | 'arcanadia yukumo'
   | 'susanowo regalia'
   | 'pso2 scale gene stellar memories'
-  | 'pso2 scale matoi'
-  | 'scale xenoblade nia';
+  | 'pso2 scale matoi';
 
 export type Model =
   | 'test:model'

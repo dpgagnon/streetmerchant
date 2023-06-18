@@ -71,12 +71,6 @@ export const AmazonJp: Store = {
     },
     */
     {
-      brand: 'good smile',
-      model: 'figure',
-      series: 'scale xenoblade nia',
-      url: 'https://www.amazon.co.jp/-/en/dp/B09S37J9F9/',
-    },
-    {
       brand: 'kotobukiya',
       model: 'model kit',
       series: 'pyra amiibo',

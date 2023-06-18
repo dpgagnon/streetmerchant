@@ -399,7 +399,6 @@ const store = {
       'susanowo regalia': 7700,
       'pso2 scale matoi': 17500,
       'pso2 scale gene stellar memories': 17000,
-      'scale xenoblade nia': 26000,
       'captcha-deterrent': 0,
       sonyps5c: envOrNumber(process.env.MAX_PRICE_SERIES_SONYPS5C),
       sonyps5de: envOrNumber(process.env.MAX_PRICE_SERIES_SONYPS5DE),
