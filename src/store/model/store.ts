@@ -32,9 +32,7 @@ export type Series =
   | 'pyra amiibo'
   | 'zoids gojulas'
   | 'arcanadia yukumo'
-  | 'susanowo regalia'
-  | 'pso2 scale gene stellar memories'
-  | 'pso2 scale matoi';
+  | 'susanowo regalia';
 
 export type Model =
   | 'test:model'
