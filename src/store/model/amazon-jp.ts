@@ -45,16 +45,58 @@ export const AmazonJp: Store = {
       url: 'https://www.amazon.co.jp/-/en/dp/B078KGV9KT',
     },
     {
-      brand: 'kotobukiya',
+      brand: 'bandai',
       model: 'model kit',
-      series: 'arcanadia yukumo',
-      url: 'https://www.amazon.co.jp/-/en/dp/B0BRRGV4ZG/',
+      series: 'mgsd barbatos',
+      url: 'https://www.amazon.co.jp/-/en/dp/B0C88KB757'
+    },
+    {
+      brand: 'bandai',
+      model: 'model kit',
+      series: '30ms idolmaster',
+      url: 'https://www.amazon.co.jp/-/en/dp/B0C88LZHQM'
+    },
+    {
+      brand: 'bandai',
+      model: 'model kit',
+      series: '30ms idolmaster body a',
+      url: 'https://www.amazon.co.jp/-/en/dp/B0C88NQBWQ'
+    },
+    {
+      brand: 'bandai',
+      model: 'model kit',
+      series: 'frs derby special week',
+      url: 'https://www.amazon.co.jp/-/en/dp/B0C88NQJ1M'
+    },
+    {
+      brand: 'bandai',
+      model: 'model kit',
+      series: 'frs synduality',
+      url: 'https://www.amazon.co.jp/-/en/dp/B0BYYJ96P7'
+    },
+    {
+      brand: 'bandai',
+      model: 'model kit',
+      series: 'macross yf29',
+      url: 'https://www.amazon.co.jp/-/en/dp/B0BYYMVZXB'
     },
     {
       brand: 'kotobukiya',
       model: 'model kit',
       series: 'susanowo regalia',
       url: 'https://www.amazon.co.jp/-/en/dp/B0C5D5XRFR',
+    },
+    {
+      brand: 'kotobukiya',
+      model: 'figure',
+      series: 'renne scale figure',
+      url: 'https://www.amazon.co.jp/-/en/dp/B0BRP4RWCS',
+    },
+    {
+      brand: 'kotobukiya',
+      model: 'model kit',
+      series: 'lumitea black',
+      url: 'https://www.amazon.co.jp/-/en/dp/B0C8RS4Z1M',
     },
     {
       brand: 'kotobukiya',

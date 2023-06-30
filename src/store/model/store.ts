@@ -31,7 +31,14 @@ export type Series =
   | 'rg johnny zaku ii'
   | 'pyra amiibo'
   | 'zoids gojulas'
-  | 'arcanadia yukumo'
+  | 'mgsd barbatos'
+  | 'lumitea black'
+  | '30ms idolmaster'
+  | '30ms idolmaster body a'
+  | 'renne scale figure'
+  | 'frs synduality'
+  | 'macross yf29'
+  | 'frs derby special week'
   | 'susanowo regalia';
 
 export type Model =
