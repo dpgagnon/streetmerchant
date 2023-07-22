@@ -88,12 +88,6 @@ export const AmazonJp: Store = {
     },
     {
       brand: 'kotobukiya',
-      model: 'figure',
-      series: 'renne scale figure',
-      url: 'https://www.amazon.co.jp/-/en/dp/B0BRP4RWCS',
-    },
-    {
-      brand: 'kotobukiya',
       model: 'model kit',
       series: 'lumitea black',
       url: 'https://www.amazon.co.jp/-/en/dp/B0C8RS4Z1M',

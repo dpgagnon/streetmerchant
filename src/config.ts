@@ -400,7 +400,6 @@ const store = {
       'lumitea black': 7590,
       '30ms idolmaster': 4180,
       '30ms idolmaster body a': 4000,
-      'renne scale figure': 18700,
       'frs synduality': 4620,
       'macross yf29': 4400,
       'frs derby special week': 4180,
