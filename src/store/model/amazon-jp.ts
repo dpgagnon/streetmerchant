@@ -92,12 +92,6 @@ export const AmazonJp: Store = {
       series: 'lumitea black',
       url: 'https://www.amazon.co.jp/-/en/dp/B0C8RS4Z1M',
     },
-    {
-      brand: 'kotobukiya',
-      model: 'model kit',
-      series: 'pyra amiibo',
-      url: 'https://www.amazon.co.jp/-/en/dp/B0BQ68CPW9/',
-    },
   ],
   name: 'amazon-jp',
 };
