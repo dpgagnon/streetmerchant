@@ -393,7 +393,7 @@ const store = {
       'mg fazz vk': 12100,
       'mg deep striker': 22000,
       'rg johnny zaku ii': 3300,
-      'zoids gojulas': 400,
+      'zoids gojulas': 350,
       'pyra amiibo': -1,
       'susanowo regalia': 7700,
       'mgsd barbatos': 4500,

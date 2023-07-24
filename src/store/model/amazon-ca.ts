@@ -37,7 +37,7 @@ export const AmazonCa: Store = {
       brand: 'kotobukiya',
       model: 'model kit',
       series: 'zoids gojulas',
-      url: 'https://www.amazon.ca/dp/B09S9CFY5J/',
+      url: 'https://www.amazon.ca/dp/B09TCZPBW2',
     },
     {
       brand: 'kotobukiya',
