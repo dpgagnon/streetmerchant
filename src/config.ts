@@ -394,7 +394,6 @@ const store = {
       'mg deep striker': 22000,
       'rg johnny zaku ii': 3300,
       'zoids gojulas': 350,
-      'pyra amiibo': -1,
       'susanowo regalia': 7700,
       'mgsd barbatos': 4500,
       'lumitea black': 7590,

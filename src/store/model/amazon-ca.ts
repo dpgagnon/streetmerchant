@@ -40,12 +40,6 @@ export const AmazonCa: Store = {
       url: 'https://www.amazon.ca/dp/B09TCZPBW2',
     },
     {
-      brand: 'kotobukiya',
-      model: 'model kit',
-      series: 'pyra amiibo',
-      url: 'https://www.amazon.ca/dp/B0C2XXMPLY/',
-    },
-    {
       brand: 'sony',
       cartUrl:
         'https://www.amazon.ca/gp/aws/cart/add.html?ASIN.1=B08GSC5D9G&Quantity.1=1',

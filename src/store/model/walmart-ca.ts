@@ -42,12 +42,6 @@ export const WalmartCa: Store = {
       series: 'xboxss',
       url: 'https://www.walmart.ca/en/ip/xbox-series-s/6000201790919',
     },
-    {
-      brand: 'kotobukiya',
-      model: 'model kit',
-      series: 'pyra amiibo',
-      url: 'https://www.walmart.ca/en/ip/amiibo-pyra-mythra-2-pack-super-smash-bros-series/6000206549685',
-    },
   ],
   name: 'walmart-ca',
   waitUntil: 'networkidle2',
