@@ -75,13 +75,13 @@ export const AmazonJp: Store = {
       series: 'frs synduality',
       url: 'https://www.amazon.co.jp/-/en/dp/B0BYYJ96P7'
     },
-    */
     {
       brand: 'bandai',
       model: 'model kit',
       series: 'macross yf29',
       url: 'https://www.amazon.co.jp/-/en/dp/B0BYYMVZXB'
     },
+    */
     {
       brand: 'kotobukiya',
       model: 'model kit',
