@@ -68,20 +68,12 @@ export const AmazonJp: Store = {
       series: 'frs derby special week',
       url: 'https://www.amazon.co.jp/-/en/dp/B0C88NQJ1M'
     },
-    /*
-    {
-      brand: 'bandai',
-      model: 'model kit',
-      series: 'frs synduality',
-      url: 'https://www.amazon.co.jp/-/en/dp/B0BYYJ96P7'
-    },
     {
       brand: 'bandai',
       model: 'model kit',
       series: 'macross yf29',
-      url: 'https://www.amazon.co.jp/-/en/dp/B0BYYMVZXB'
+      url: 'https://www.amazon.co.jp/-/en/dp/B0C88MD61M'
     },
-    */
     {
       brand: 'kotobukiya',
       model: 'model kit',

@@ -34,7 +34,6 @@ export type Series =
   | 'lumitea black'
   | '30ms idolmaster'
   | '30ms idolmaster body a'
-  | 'frs synduality'
   | 'macross yf29'
   | 'frs derby special week'
   | 'susanowo regalia';
