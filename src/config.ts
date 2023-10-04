@@ -391,7 +391,6 @@ const store = {
   maxPrice: {
     series: {
       'mg fazz vk': 12100,
-      'mg deep striker': 22000,
       'rg johnny zaku ii': 3300,
       'zoids gojulas': 350,
       'susanowo regalia': 7700,

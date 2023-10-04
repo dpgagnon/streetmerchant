@@ -41,12 +41,6 @@ export const AmazonJp: Store = {
     {
       brand: 'bandai',
       model: 'model kit',
-      series: 'mg deep striker',
-      url: 'https://www.amazon.co.jp/-/en/dp/B078KGV9KT',
-    },
-    {
-      brand: 'bandai',
-      model: 'model kit',
       series: 'mgsd barbatos',
       url: 'https://www.amazon.co.jp/-/en/dp/B0C88KB757'
     },

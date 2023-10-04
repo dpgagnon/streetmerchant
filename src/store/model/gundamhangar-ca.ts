@@ -25,12 +25,6 @@ export const GundamHangarCa: Store = {
       series: 'rg johnny zaku ii',
       url: 'https://gundamhangar.com/canadian-gundam-store/product/rg-1-144-ms-06r-2-johnny-riddens-zaku-ii',
     },
-    {
-      brand: 'bandai',
-      model: 'model kit',
-      series: 'mg deep striker',
-      url: 'https://gundamhangar.com/canadian-gundam-store/product/mg-1-100-plan303e-deep-striker',
-    },
   ],
   name: 'gundamhangar-ca',
   waitUntil: 'domcontentloaded',

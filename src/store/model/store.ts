@@ -27,7 +27,6 @@ export type Series =
   | 'xboxsx'
   | 'xboxss'
   | 'mg fazz vk'
-  | 'mg deep striker'
   | 'rg johnny zaku ii'
   | 'zoids gojulas'
   | 'mgsd barbatos'

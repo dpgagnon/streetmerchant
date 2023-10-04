@@ -25,12 +25,6 @@ export const GundamHobbyCa: Store = {
       series: 'rg johnny zaku ii',
       url: 'https://www.gundamhobby.ca/products/rg-ms-06r-2-johnny-ridden-custom-zaku-ii',
     },
-    {
-      brand: 'bandai',
-      model: 'model kit',
-      series: 'mg deep striker',
-      url: 'https://www.gundamhobby.ca/products/mg-deep-striker-gundam-sentinel',
-    },
   ],
   name: 'gundamhobby-ca',
   waitUntil: 'domcontentloaded',

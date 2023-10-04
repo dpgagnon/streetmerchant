@@ -25,12 +25,6 @@ export const ArgamaHobbyCa: Store = {
       series: 'rg johnny zaku ii',
       url: 'https://argamahobby.com/products/bandai-real-grade-1-144-ms-06r-2-johnny-riddens-zaku-ii',
     },
-    {
-      brand: 'bandai',
-      model: 'model kit',
-      series: 'mg deep striker',
-      url: 'https://argamahobby.com/products/master-grade-1-100-plan303e-deep-striker',
-    },
   ],
   name: 'argamahobby-ca',
   waitUntil: 'domcontentloaded',
